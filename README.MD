@@ -7,11 +7,10 @@
 
 Automate all things Wrike! This script was designed to integrate with the LogRhythm SIEM, and automate the assignment of tasks based on SIEM alarms.
 
-<<<<<<< HEAD
+Blog Post => TBD
+
 ![Overview](/images/wrike.png)
 
-=======
->>>>>>> origin/master
 ## [Install]
 
     Obtain an API token from the Wrike and hardcode / append during function calls:
@@ -51,8 +50,4 @@ Automate all things Wrike! This script was designed to integrate with the LogRhy
 ## [License]
 
 Copyright 2017 LogRhythm Inc.   
-<<<<<<< HEAD
 Licensed under the MIT License. See LICENSE file in the project root for full license information.
-=======
-Licensed under the MIT License. See LICENSE file in the project root for full license information.
->>>>>>> origin/master
