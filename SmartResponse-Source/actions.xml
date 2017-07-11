@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="Wrike" Version="1" Guid="a3aa220f-7c81-45a0-ae08-164ad8c23b92">
+
+  <!-- Create Wrike Task -->
+  <remv1:Action Name="Wrike : Create Task" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file wrike-srp.ps1" Order="1" />
+    <remv1:EncryptedParameter>
+      <remv1:StringParameter Name="Wrike API Key" Switch="-accessToken " Order="2" />
+    </remv1:EncryptedParameter>
+    <remv1:StringParameter Name="Assign To" Switch="-user " Order="3" />
+    <remv1:StringParameter Name="Target Folder" Switch="-folder " Order="4" />
+    <remv1:StringParameter Name="Task Name" Switch="-newTask " Order="5" />
+    <remv1:StringParameter Name="Task Description" Switch="-description " Order="6" />
+  </remv1:Action>
+
+</remv1:Remediation-Plugin>
