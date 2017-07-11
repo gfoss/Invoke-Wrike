@@ -1,20 +1,19 @@
-  #====================================#
-  # Wrike - PowerShell API Integration #
-  # LogRhythm Security Operations      #
-  # greg . foss @ logrhythm . com      #
-  # v0.1  --  May, 2017                #
-  #====================================#
 
-# Copyright 2017 LogRhythm Inc.   
-# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+        Wrike PowerShell API Integration
+        greg . foss [at] logrhythm . com
+        v0.1 -- July, 2017
 
-.INSTALL
+## [About]
+
+Automate all things Wrike! This script was designed to integrate with the LogRhythm SIEM, and automate the assignment of tasks based on SIEM alarms.
+
+## [Install]
 
     Obtain an API token from the Wrike and hardcode / append during function calls:
 
         https://www.wrike.com/frontend/apps/index.html#/api
 
-.SYNOPSIS
+## [Synopsis]
 
     Open Wrike in Application Mode in Chrome
 
@@ -22,7 +21,7 @@
 
     Integrate with automation tools and dynamically generate tasks
 
-.USAGE
+## [Usage]
 
     Ensure that you have the Wrike functions imported
 
@@ -43,3 +42,8 @@
     Hardcode variables for quick access from the command line
         
         PS C:\> invoke-wrike -newTask <"Task Title">
+
+## [License]
+
+Copyright 2017 LogRhythm Inc.   
+Licensed under the MIT License. See LICENSE file in the project root for full license information.
