@@ -7,7 +7,7 @@
 
 Automate all things Wrike! This script was designed to integrate with the LogRhythm SIEM, and automate the assignment of tasks based on SIEM alarms.
 
-Blog Post => TBD
+Blog Post => https://logrhythm.com/blog/automate-project-management-with-smartresponse/
 
 ![Overview](/images/wrike.png)
 
